@@ -1,0 +1,499 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#000
+    background-color #fff;
+    margin:0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header {
+padding: 0%;
+width: 100%;
+height: 9.635 vw;
+flex-shrink: 0;
+display: block;
+}
+
+.SSM-Logo.png {
+    width: 9.271 vw;
+    height: auto;
+    margin-left: 1.146 vw;
+    margin-right: 42.917 vw;
+}
+
+header nav ul{
+    margin: auto;
+    padding:0px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0.521 vw;
+    font-size: 0.729 vw;
+    }
+ 
+header li a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    margin: auto;
+    padding: 50px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+    display: block;
+}
+
+footer .SSM-Logo.png{
+    box-sizing: border-box;
+}
+
+.museum_info h2{
+    max-width: 220px;
+    height: 28px;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 59px;
+    margin-top: 55px;
+    margin-right: 745px;
+}
+
+.museum_info p{
+    width: 375px;
+    height: 51px;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 59px;
+    margin-right: 590px;
+}
+
+.opening_hours h2{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 59px;
+}
+
+.opening_hours ul li{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3;
+    margin-left: 59px;
+}
+
+.introduction_to_the_museum{
+    display: grid;
+    width: 100%;
+    
+}
+
+.introduction_to_the_museum h1 
+{
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 32px;
+    padding-right: 39px;
+    }
+
+    .introduction_to_the_museum h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align:center;
+    
+    }
+
+    .introduction_to_the_museum p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        }
+
+    .introduction_to_the_museum img{
+        display: block;
+        border-radius: 50px;
+        width: 260px;
+        height: auto;
+        flex-shrink: 0; 
+        margin-left: auto;  
+        margin-right: auto;
+        
+    }
+
+    .galaxy_container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .galaxy_container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 400px;
+        width: 400px;
+        height: auto;
+    }
+
+    .galaxy_container p{
+        text-align: center;
+        max-width: 780px;
+        height: auto;
+    }
+
+    .midst_content{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .midst_content p{
+        text-align: center;
+        max-width: 816px;
+    }
+    
+
+    .midst_content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 220px;
+        width: 220px;
+        height: 220px;
+        padding: 2%;
+    }
+
+    .mammoth img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .explore_button_1{
+        border-radius: 50px;
+        background: #3FA752;
+        box-shadow: 0px 4px 0px rgba(0, 0, 0.25) inset;
+        width: 220px;
+        height: 70px;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .kids_container img{
+        border-left: 42px;
+        border-right: 42px;
+        width: 940px;
+        height: auto;
+        }
+
+        .kids_container{
+            display: flex;
+            text-align: left;
+            max-width: 380px;
+            height: auto;
+        }
+
+        .teachers_container{
+            max-width: 451px;
+            height: auto;
+        }
+
+        .teachers_container img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 361px;
+            max-width: 361px;
+            height: auto;
+            
+        }
+
+        .contact_button_1{
+            border-radius: 50px;
+            background: #3FA752;
+            max-width: 220px;
+            height: 70px;
+            text-align: center;
+            font-weight: 700;
+            box-shadow: 0px 4px 0px rgba(0, 0, 0.25) inset;
+        }
+
+        .exhibition_headline{
+            font-size: 32px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .cosmology_container img{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+           width: 100%;
+          height: auto;
+        }
+
+        .cosmology_container {
+            max-width: 509px;
+            height: auto;
+            text-align: left;
+        }
+
+        .evolution{
+            max-width: 593px;
+            height: auto;
+        }
+
+        .evolution img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .biology_and_medicine {
+            max-width: 580px;
+            height: auto;
+        }
+      
+        .biology_and_medicine img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .robotics_and_ai{
+            max-width: 560px;
+            height: auto;
+        }
+
+        .robotics_and_ai img{
+            max-width: 940px;
+            height: auto;
+        }
+
+        .ecology{
+            max-width: 519px;
+            height: auto;
+        }
+
+        .ecology img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .guest_information{
+            max-width: 309px;
+            height: auto;
+        }
+
+        .guest_information img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .event_headline{
+            text-align: center;
+            font-size: 32px;
+        }
+        
+        .professor h3{
+        text-decoration: underline;
+        }
+
+        .professor{
+            max-width: 620px;
+            height: auto;
+        }
+
+        .professor img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .night_museum{
+            max-width: 679px;
+            height:auto ;
+        }
+
+        .night_museum h2{
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+        .night_museum img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .energetica{
+            max-width: 621px;
+            height: auto;
+        }
+
+        .energetica h2{
+            text-decoration: underline;
+            font-size: 20px;
+        }
+   
+        .energetica img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 720px;
+        }
+
+        .involved_headline{
+            text-align: center;
+        }
+
+        .researchers{
+            max-width: 482px;
+            height: auto;
+        }
+
+        .researchers img{
+             border-radius: 235px;
+             max-width: 235px;
+             height: auto;
+             display: block;
+        }
+
+        .support{
+            max-width: 541px;
+            height: auto;
+        }
+
+        .contact_button_2{
+            background-color: #3FA752;
+            max-width: 220px;
+            max-height: 70px;
+            border-radius: 50px;
+            text-align: center;
+            color: #000;
+        }
+
+
+        .volunteer{
+            max-width: 671px;
+            height: auto;
+        }
+
+        .volunteer img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .internships{
+            max-width: 509px;
+            height: auto;
+        }
+
+        .internships img{
+            max-width: 940px;
+            height: auto;
+        }
+
+        .location h1{
+            text-align: center;
+        }
+
+        .location h2{
+            max-width: 118px;
+            height: auto;
+        }
+
+        .location img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .location p{
+            text-decoration: underline;
+            max-width: 227px;
+            height: auto;
+        }
+
+        .contact h2{
+            text-decoration: underline;
+            font-size: 32px;
+        }
+
+        .contact_form h2{
+        text-decoration: underline;
+        }
+
+        .contact_form{
+            max-width: 528px;
+            height: auto;
+            border-radius: 15px;
+            border: 1px solid black
+        }
+
+        input {
+            box-sizing: border-box;
+            max-width: 359px;
+            padding: 15px 40px;
+            border-color: #000;
+            border-radius: 15px;
+        }
+
+        .privacy_policy{
+            text-align: center;
+        }
+
+        .terms_and_conditions{
+            text-align: center;
+        }
+
+        .contact_info a{
+            text-decoration: #3FA752;
+        }
+
+
